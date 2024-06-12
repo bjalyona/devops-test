@@ -2,6 +2,10 @@ import pytest
 
 from main import plus, minus
 
+"""
+this module tests the plus and minus functions 
+"""
+
 
 @pytest.mark.parametrize(
     ('x', 'y', 'result'), [
@@ -10,6 +14,7 @@ from main import plus, minus
     ]
 )
 def test_plus(x, y, result):
+    """test plus function"""
     assert plus(x, y) == result
 
 
@@ -20,4 +25,5 @@ def test_plus(x, y, result):
     ]
 )
 def test_minus(x, y, result):
+    """test plus function"""
     assert minus(x, y) == result
