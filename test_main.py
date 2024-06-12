@@ -11,6 +11,7 @@ from main import plus, minus
 def test_plus(x, y, result):
     assert plus(x, y) == result
 
+
 @pytest.mark.parametrize(
     ('x', 'y', 'result'), [
         (10, 5, 5),
