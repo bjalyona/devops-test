@@ -12,3 +12,6 @@ def plus(x, y):
 def minus(x, y):
     """make a subtraction"""
     return x - y
+
+
+print("hello docker")
