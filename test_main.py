@@ -1,13 +1,14 @@
 import pytest
 
 from main import plus, minus
+
+
 @pytest.mark.parametrize(
     ('x', 'y', 'result'), [
         (5, 5, 10),
         (18, -5, 13),
     ]
 )
-
 def test_plus(x, y, result):
     assert plus(x, y) == result
 
