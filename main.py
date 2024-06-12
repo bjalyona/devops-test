@@ -19,4 +19,9 @@ def multiply(x, y):
     return x * y
 
 
+def divide(x, y):
+    """divide the numbers"""
+    return x / y
+
+
 print("hello docker")
