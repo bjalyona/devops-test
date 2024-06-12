@@ -27,3 +27,15 @@ def test_plus(x, y, result):
 def test_minus(x, y, result):
     """test plus function"""
     assert minus(x, y) == result
+
+
+@pytest.mark.parametrize(
+    ('x', 'y', 'result'), [
+        (10, 5, 50),
+        (4, 4, 16),
+    ]
+)
+def test_multiply(x, y, result):
+    """test plus function"""
+    assert multiply(x, y) == result
+    
