@@ -4,7 +4,7 @@ this module tests the plus and minus functions
 
 import pytest
 
-from main import plus, minus
+from main import plus, minus, multiply
 
 
 @pytest.mark.parametrize(
