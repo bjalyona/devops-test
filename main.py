@@ -14,4 +14,9 @@ def minus(x, y):
     return x - y
 
 
+def multiply(x, y):
+    """multiply the numbers"""
+    return x * y
+
+
 print("hello docker")
